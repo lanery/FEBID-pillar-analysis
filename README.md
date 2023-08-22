@@ -38,8 +38,9 @@ To (re-)run the analysis, first install the requirements (ideally into a fresh c
 conda create -n febid python=3.10 jupyterlab  # optional but recommended
 pip install -r requirements.txt
 ```
-Start a jupyter lab session.
+Activate environment and start a jupyter lab session.
 ```
+conda activate febid
 jupyter lab
 ```
 Navigate to `/analysis/` and run `1_measurements.ipynb` and/or `2_plots.ipynb`.
